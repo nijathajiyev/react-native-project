@@ -1,0 +1,6 @@
+module Pods_DrawerApp {
+  umbrella header "Pods-DrawerApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

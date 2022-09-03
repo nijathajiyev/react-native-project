@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Big Tasty",
+    "restaurant": "Mc Donald's",
+    "price": 5.9,
+    "description": "Boyuk boy"
+  },
+  {
+    "id": 2,
+    "name": "Marqarita",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  },
+  {
+    "id": 3,
+    "name": "Mix",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  },
+  {
+    "id": 4,
+    "name": "Mexico",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  },
+  {
+    "id": 5,
+    "name": "Marqarita",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  },
+  {
+    "id": 6,
+    "name": "Marqarita",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  },
+  {
+    "id": 7,
+    "name": "Marqarita",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  },
+  {
+    "id": 8,
+    "name": "Marqarita",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  },
+  {
+    "id": 9,
+    "name": "Marqarita",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  },
+  {
+    "id": 10,
+    "name": "Marqarita",
+    "restaurant": "Papa John's",
+    "price": 16,
+    "description": "Boyuk"
+  }
+]
