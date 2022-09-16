@@ -3,6 +3,37 @@
     "welcome": "Welcome Admin",
     "user": "Username",
     "pass": "Password",
-    "sign": "Sign In"
+    "sign": "Sign In",
+    "usOrPassWrong" :"username or password is incorrect .!",
+    "close": "Close",
+    "title_delete":"Are you sure it’s deleted ?",
+    "subtitle_product_delete":"Attention! If you delete this product, it will not come back...?",
+    "subtitle restaurant delete":"Attention! If you delete this restaurant, it will not come back...?",
+    "subtitle category delete":"Attention! If you delete this category, it will not come back...?",
+    "subtitle order delete":"Attention! If you delete this order, it will not come back...?",
+    "subtitle offer delete":"Attention! If you delete this offer, it will not come back...?",
+    "delete":"delete",
+    "cancel":"Cancel",
+    "ctype": "Category type",
+    "srch": "Search",
+    "risk": "Assigned Risks",
+    "action": "Assigned Action Items",
+    "noRisk": "There are no risks assigned.",
+    "noAction": "There are no action items assigned.",
+    "total": "Total Price",
+    "month": {
+      "feb": "February",
+      "mar": "March",
+      "apr": "April"
+    },
+    "menu": {
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "restaurants": "Restaurants",
+      "category": "Category",
+      "orders": "Orders",
+      "offers": "Offers",
+      "logout": "Logout"
+    }
   }
 }

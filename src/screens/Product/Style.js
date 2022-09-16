@@ -132,4 +132,86 @@ export const Style = StyleSheet.create({
         shadowRadius: 1.41,
         elevation: 2,
     },
+    centeredView: {
+        height:"100%",
+        width:"100%",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: 22
+    },
+    modalView: {
+        margin: 20,
+        backgroundColor: "white",
+        borderRadius: 4,
+        padding: 35,
+        height:"40%",
+        width:"90%",
+        alignItems: "center",
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 10,
+            height: 2
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5
+    },
+    button: {
+        borderRadius: 4,
+        padding: 10,
+        elevation: 2,
+
+    },
+    buttonOpen: {
+        backgroundColor: "#F194FF",
+    },
+    // buttonClose: {
+    //     backgroundColor: "#2196F3",
+    // },
+    buttonDelete: {
+        marginTop:25,
+        width:"98%",
+        backgroundColor: "#D63626",
+    },
+    buttonCancel: {
+        borderRadius: 4,
+        padding: 10,
+        elevation: 2,
+        marginTop:10,
+        width:"98%",
+        // backgroundColor: "#D63626",
+        borderWidth:2,
+        borderColor:"#BDBDBD"
+    },
+    buttonDeleteText: {
+        color: "#fff",
+        textAlign:"center",
+        fontSize:20
+    },
+    buttonCancelText: {
+        color: "#BDBDBD",
+        // backgroundColor:"#000",
+        textAlign:"center",
+        fontSize:20
+    },
+
+    textStyle: {
+        color: "#000000",
+        marginTop:46,
+        fontWeight:"bold",
+        fontSize:26,
+        textAlign: "center"
+    },
+    textStyleP: {
+        color: "#4F4F4F",
+        fontSize:18,
+        paddingHorizontal:30,
+        lineHeight:30,
+        marginTop:15,
+        textAlign: "center"
+    },
+    modalText: {
+        marginBottom: 15,
+        textAlign: "center"
+    }
 })

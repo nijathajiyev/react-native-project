@@ -26,8 +26,7 @@ export const Auth = ()=>{
             // console.log(res.data),
             dispatch(addRestaurant(res.data.restaurants))
         ))
-
-    })
+    },[])
 
     return(
         <View style={Style.main}>

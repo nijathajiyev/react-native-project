@@ -10,55 +10,57 @@ import Restaurants from "../screens/Restaurants";
 import Category from "../screens/Category";
 import Offers from "../screens/Offers";
 import Order from "../screens/Order";
+import {useTranslation} from "react-i18next";
 
 
 const Drawer = createDrawerNavigator();
 
 function MyDrawer({login}) {
+    const{t} = useTranslation()
     return (
-            <Drawer.Navigator initialRouteName="Restaurants" drawerContent={(props) => <CustomDrawer login={login} {...props} />}
+            <Drawer.Navigator drawerContent={(props) => <CustomDrawer login={login} {...props} />}
                               drawerContentOptions={{
                                   activeTintColor: 'rgba(252, 221, 236, 1)',
                                   inactiveTintColor: 'rgba(242, 242, 242, 0.87)', /* Font color for inactive screens' labels */
                               }}
             >
                 <Drawer.Screen
-                    name="Dashboard"
+                    name={t("menu.dashboard")}
                     component={Dashboard}
                     options={{
                     drawerIcon: ({ color, size }) => (
                     <Image source={require("../assets/img/Drawer/dsb.png")} style={{marginLeft:19,width:18,height:18}}/>)}}
                 />
                 <Drawer.Screen
-                    name="Products"
+                    name={t("menu.products")}
                     component={Product}
                     options={{
                     drawerIcon: ({ color, size }) => (
                         <Image source={require("../assets/img/Drawer/prd.png")} style={{marginLeft:17,width:22,height:22}}/>)}}
                 />
                 <Drawer.Screen
-                    name="Restaurants"
+                    name={t("menu.restaurants")}
                     component={Restaurants}
                     options={{
                     drawerIcon: ({ color, size }) => (
                         <Image source={require("../assets/img/Drawer/rst.png")} style={{marginLeft:17,width:22,height:22}}/>)}}
                 />
                 <Drawer.Screen
-                    name="Category"
+                    name={t("menu.category")}
                     component={Category}
                     options={{
                     drawerIcon: ({ color, size }) => (
                     <Image source={require("../assets/img/Drawer/ctg.png")} style={{marginLeft:17,width:22,height:22}}/>)}}
                 />
                 <Drawer.Screen
-                    name="Orders"
+                    name={t("menu.orders")}
                     component={Order}
                     options={{
                     drawerIcon: ({ color, size }) => (
                     <Image source={require("../assets/img/Drawer/ord.png")} style={{marginLeft:17,width:22,height:22}}/>)}}
                 />
                 <Drawer.Screen
-                    name="Offer"
+                    name={t("menu.offers")}
                     component={Offers}
                     options={{
                     drawerIcon: ({ color, size }) => (

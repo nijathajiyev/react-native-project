@@ -3,6 +3,37 @@
     "welcome": "Xoş gəldin Admin",
     "user": "İstifadəçi adı",
     "pass": "Parol",
-    "sign": "Daxil ol"
+    "sign": "Daxil ol",
+    "usOrPassWrong" :"İstifadəçi adı və ya parol səhvdir .!",
+    "close": "Bağla",
+    "ctype": "Kateqoriya növü",
+    "srch": "Axtar",
+    "title_delete":"Onun silindiyinə əminsiniz?",
+    "subtitle_product_delete":"Diqqət! Bu məhsulu silsəniz, geri qayıtmayacaq...?",
+    "subtitle restaurant delete":"Diqqət! Bu restoranı silsən geri qayıtmayacaq...?",
+    "subtitle category delete":"Diqqət! Bu kateqoriyanı silsəniz, geri qayıtmayacaq...?",
+    "subtitle order delete":"Diqqət! Bu sifarişi silsəniz, geri qayıtmayacaq...?",
+    "subtitle offer delete":"Diqqət! Bu təklifi silsən geri qayıtmayacaq...?",
+    "delete":"silin",
+    "cancel":"Ləğv et",
+    "risk": "Təyin edilmiş Risklər",
+    "action": "Təyin edilmiş Fəaliyyət Maddələri",
+    "noRisk":"Təyin edilmiş risklər yoxdur.",
+    "noAction": "Təyin edilmiş fəaliyyət elementləri yoxdur.",
+    "total": "Ümumi qiymət",
+    "month": {
+      "feb": "Fevral",
+      "mar": "Mart",
+      "apr": "Aprel"
+    },
+    "menu": {
+      "dashboard": "İdarə paneli",
+      "products": "Məhsullar",
+      "restaurants": "Restoranlar",
+      "category": "Kateqoriya",
+      "orders": "Sifarişlər",
+      "offers": "Təkliflər",
+      "logout": "Çıxış"
+    }
   }
 }

@@ -10,6 +10,7 @@ import styles from "../common/Styles";
 import Feather from 'react-native-vector-icons/Feather'
 import { TouchableRipple, Title } from 'react-native-paper';
 import {Image, Text, TouchableOpacity, View} from "react-native";
+import {useTranslation} from "react-i18next";
 
 const UserView = ({ navigation, opacity }) => {
     return (
@@ -25,6 +26,7 @@ const UserView = ({ navigation, opacity }) => {
 }
 
 const CustomDrawer = (props) => {
+    const{t} = useTranslation()
     const translateX = Animated.interpolateNode(props.progress, {
         inputRange: [0, 1],
         outputRange: [-100, 0],
@@ -55,7 +57,7 @@ const CustomDrawer = (props) => {
                    <View style={{flex:1,marginTop:30,flexDirection:"row"}}>
                        <TouchableOpacity style={{flexDirection:"row"}} onPress={()=>props.login()}>
                        <Image source={require("../assets/img/Drawer/lgo.png")} style={{marginLeft:39,width:22,height:22}}/>
-                       <Text style={{marginLeft:30,color:"rgba(242, 242, 242, 0.87)"}}>Logout</Text>
+                       <Text style={{marginLeft:30,color:"rgba(242, 242, 242, 0.87)"}}>{t("menu.logout")}</Text>
                        </TouchableOpacity>
                    </View>
                </View>

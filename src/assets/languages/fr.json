@@ -3,6 +3,37 @@
     "welcome": "Bienvenue",
     "user": "Nom d'utilisateur",
     "pass": "Mot de passe",
-    "sign": "S'identifier"
+    "sign": "S'identifier",
+    "usOrPassWrong" :"L'identifiant ou le mot de passe est incorrect",
+    "close": "Proche",
+    "srch": "Chercher",
+    "ctype": "Type de catégorie",
+    "title_delete":"Es-tu sûr qu'il est supprimé ?",
+    "subtitle_product_delete":"Attention! Si vous supprimez ce produit, il ne reviendra pas... ?",
+    "subtitle restaurant delete":"Attention! Si vous supprimez ce restaurant, il ne reviendra pas...?",
+    "subtitle category delete":"Attention! Si vous supprimez cette catégorie, elle ne reviendra pas...?",
+    "subtitle order delete":"Attention! Si vous supprimez cette commande, elle ne reviendra pas...?",
+    "subtitle offer delete":"Attention! Si vous supprimez cette offre, elle ne reviendra pas...?",
+    "delete":"effacer",
+    "cancel":"Annuler",
+    "risk": "Risques assignés",
+    "action": "Eléments d'action affectés",
+    "noRisk": "Aucun risque n'est attribué.",
+    "noAction": "Aucun élément d'action n'est attribué.",
+    "total": "Prix Total",
+    "month": {
+      "feb": "Février",
+      "mar": "Mars",
+      "apr": "Avril"
+    },
+    "menu": {
+      "dashboard": "Tableau de bord",
+      "products": "Produits",
+      "restaurants": "Restaurants",
+      "category": "Catégorie",
+      "orders": "Commandes",
+      "offers": "Offres",
+      "logout": "Déconnexion"
+    }
   }
 }
